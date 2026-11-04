@@ -16,6 +16,10 @@ Proyecto final desarrollado para la materia **Introducción al Marketing Online 
   - [1. Ventas Totales ($M) y Ticket Promedio ($K) por Canal y Mes](#1-ventas-totales-m-y-ticket-promedio-k-por-canal-y-mes)
   - [2. Cálculo Mensual del Net Promoter Score (NPS) por Canal](#2-cálculo-mensual-del-net-promoter-score-nps-por-canal)
   - [3. Ranking Mensual de Productos por Ventas](#3-ranking-mensual-de-productos-por-ventas)
+- [Tablero Ejecutivo y Especificaciones de Visualización (Power BI)](#-tablero-ejecutivo-y-especificaciones-de-visualización-power-bi)
+  - [1. Filtros y Segmentaciones (Slicers)](#1-filtros-y-segmentaciones-slicers)
+  - [2. Tarjetas de Indicadores Clave (KPI Cards)](#2-tarjetas-de-indicadores-clave-kpi-cards)
+  - [3. Especificaciones de Gráficos y Visualizaciones](#3-especificaciones-de-gráficos-y-visualizaciones)
 ---
 
 ## 📁 Estructura del Repositorio
@@ -359,34 +363,34 @@ ORDER BY d.year, d.month, total_ingresos DESC;
 
 ## 📈 Tablero Ejecutivo y Especificaciones de Visualización (Power BI)
 
-El reporte interactivo se alimenta exclusivamente de las **4 tablas de Data Marts pre-calculadas en DuckDB** (`mart_ventas_mensual`, `mart_producto_mensual`, `mart_nps_mensual`, `mart_usuarios_mensual`), logrando un modelo analítico optimizado y de alta performance sin necesidad de fórmulas DAX complejas[cite: 2, 3, 4].
+El reporte interactivo se alimenta exclusivamente de las **4 tablas de Data Marts pre-calculadas en DuckDB** (`mart_ventas_mensual`, `mart_producto_mensual`, `mart_nps_mensual`, `mart_usuarios_mensual`), logrando un modelo analítico optimizado y de alta performance sin necesidad de fórmulas DAX complejas.
 
 ![Tablero Ejecutivo Eco Bottle](assets/dashboard_preview.png)
 
 ### 🎛️ 1. Filtros y Segmentaciones (Slicers)
 Permiten realizar un filtrado transversal en tiempo real sobre todo el tablero:
-- **FECHA / MES:** Filtra la temporalidad del negocio utilizando el campo `mes` proveniente de las tablas mart[cite: 3, 4].
-- **CANAL:** Segmenta el análisis entre *Tienda Online* y *Tiendas Físicas* mediante la variable `canal` (`mart_ventas_mensual`, `mart_nps_mensual`)[cite: 3, 4].
-- **PRODUCTO:** Permite seleccionar las familias de artículos (*Classic A Bottle*, *Sport B Bottle*) utilizando el campo `producto` (`mart_producto_mensual`)[cite: 3, 4].
-- **PROVINCIA:** Filtra geográficamente por las distintas sucursales y regiones (*Córdoba*, *Mendoza*, *Santa Fe*, *Buenos Aires*) usando el campo `provincia` (`mart_ventas_mensual`)[cite: 1, 4].
+- **FECHA / MES:** Filtra la temporalidad del negocio utilizando el campo `mes` proveniente de las tablas mart.
+- **CANAL:** Segmenta el análisis entre *Tienda Online* y *Tiendas Físicas* mediante la variable `canal` 
+- **PRODUCTO:** Permite seleccionar las familias de artículos (*Classic A Bottle*, *Sport B Bottle*) utilizando el campo `producto` 
+- **PROVINCIA:** Filtra geográficamente por las distintas sucursales y regiones (*Córdoba*, *Mendoza*, *Santa Fe*, *Buenos Aires*) usando el campo `provincia`
 
 ### 🧮 2. Tarjetas de Indicadores Clave (KPI Cards)
 Ubicadas en la barra superior del reporte para una lectura ejecutiva inmediata:
-- **NPS Promedio:** Muestra el puntaje global de satisfacción del cliente calculado en base a `mart_nps_mensual`[cite: 1, 3].
-- **Suma de Ventas:** Ingresos netos totales acumulados mediante la variable `Ventas` (`mart_ventas_mensual`)[cite: 1, 4].
-- **Ticket Promedio:** Relación de ingresos por pedido utilizando el campo `ticket_promedio` (`mart_ventas_mensual`, `mart_nps_mensual`)[cite: 1, 3, 4].
-- **Suma de Usuarios Activos:** Volumen total de alcance e interacción de usuarios extraído del campo `Usuarios Activos` (`mart_usuarios_mensual`)[cite: 1, 3, 4].
+- **NPS Promedio:** Muestra el puntaje global de satisfacción del cliente calculado en base a `mart_nps_mensual`.
+- **Suma de Ventas:** Ingresos netos totales acumulados mediante la variable `Ventas` (`mart_ventas_mensual`).
+- **Ticket Promedio:** Relación de ingresos por pedido utilizando el campo `ticket_promedio` (`mart_ventas_mensual`, `mart_nps_mensual`).
+- **Suma de Usuarios Activos:** Volumen total de alcance e interacción de usuarios extraído del campo `Usuarios Activos` (`mart_usuarios_mensual`).
 
 ### 📊 3. Especificaciones de Gráficos y Visualizaciones
 Cada componente visual se conecta de forma directa con los atributos de los data marts:
-- **Evolución de Ingresos y Ticket Promedio (Gráfico de Líneas):** Contrasta el comportamiento temporal de la facturación y el ticket promedio discriminado por `canal` (`mart_ventas_mensual`)[cite: 1, 4].
-- **Ventas por Producto (Gráfico de Columnas):** Compara el volumen de ingresos (`ventas`), unidades y el `ranking` comercial de cada artículo (`mart_producto_mensual`)[cite: 1, 3, 4].
-- **Composición del Tráfico Web (Gráfico de Columnas Apiladas):** Detalla la proporción del tráfico diferenciando las `sesiones` totales de las `sesiones_anonimas` (`mart_usuarios_mensual`)[cite: 1, 3, 4].
-- **Tráfico Web y Actividad de Usuarios (Gráfico de Áreas):** Visualiza de forma conjunta la evolución de `Usuarios Activos` frente al volumen total de sesiones (`mart_usuarios_mensual`)[cite: 1, 3, 4].
-- **Nps por Año y Canal (Gráfico de Líneas):** Evalúa la evolución temporal del índice de satisfacción utilizando la métrica `Nps` y el campo `canal` (`mart_nps_mensual`)[cite: 1, 3].
-- **Ventas por Provincia (Gráfico de Anillo / Donut):** Distribuye porcentualmente la facturación total (`Ventas`) según la `provincia` operativa (`mart_ventas_mensual`)[cite: 1, 4].
-- **Usuarios Activos por Año y Mes (Gráfico de Líneas):** Muestra la tendencia de crecimiento mensual de `Usuarios Activos` (`mart_usuarios_mensual`)[cite: 1, 3, 4].
-- **Ventas por Año y Mes (Gráfico de Líneas):** Muestra el comportamiento estacional y mensual de la facturación total (`Ventas` de `mart_ventas_mensual`)[cite: 1, 4].
+- **Evolución de Ingresos y Ticket Promedio (Gráfico de Líneas):** Contrasta el comportamiento temporal de la facturación y el ticket promedio discriminado por `canal` (`mart_ventas_mensual`).
+- **Ventas por Producto (Gráfico de Columnas):** Compara el volumen de ingresos (`ventas`), unidades y el `ranking` comercial de cada artículo (`mart_producto_mensual`).
+- **Composición del Tráfico Web (Gráfico de Columnas Apiladas):** Detalla la proporción del tráfico diferenciando las `sesiones` totales de las `sesiones_anonimas` (`mart_usuarios_mensual`).
+- **Tráfico Web y Actividad de Usuarios (Gráfico de Áreas):** Visualiza de forma conjunta la evolución de `Usuarios Activos` frente al volumen total de sesiones (`mart_usuarios_mensual`).
+- **Nps por Año y Canal (Gráfico de Líneas):** Evalúa la evolución temporal del índice de satisfacción utilizando la métrica `Nps` y el campo `canal` (`mart_nps_mensual`).
+- **Ventas por Provincia (Gráfico de Anillo / Donut):** Distribuye porcentualmente la facturación total (`Ventas`) según la `provincia` operativa (`mart_ventas_mensual`).
+- **Usuarios Activos por Año y Mes (Gráfico de Líneas):** Muestra la tendencia de crecimiento mensual de `Usuarios Activos` (`mart_usuarios_mensual`).
+- **Ventas por Año y Mes (Gráfico de Líneas):** Muestra el comportamiento estacional y mensual de la facturación total (`Ventas` de `mart_ventas_mensual`).
 
 ---
 
