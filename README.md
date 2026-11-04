@@ -6,7 +6,6 @@ Proyecto final desarrollado para la materia **Introducción al Marketing Online 
 
 ## 📁 Estructura del Repositorio
 
-```text
 raw/               Datos de origen (archivos CSV transaccionales del sistema OLTP)
 sql/               Scripts DDL y DML de transformación en SQL (modelo estrella y data marts)
 dw/                Data Warehouse resultante (tablas procesadas en formato CSV para Power BI)
@@ -16,7 +15,6 @@ requirements.txt   Lista de librerías requeridas (DuckDB)
 run_sql.py         Script Python de automatización para construir el Data Warehouse
 warehouse.duckdb   Base de datos analítica local creada al ejecutar el pipeline
 README.md          Documentación técnica del proyecto y diccionario de datos
-
 
 ---
 
@@ -116,7 +114,9 @@ JOIN dim_date d ON f.date_id = d.date_id
 WHERE f.status IN ('PAID', 'FULFILLED')
 GROUP BY d.year, d.month, p.name
 ORDER BY d.year, d.month, total_ingresos DESC;
-
+```
 ---
+```
 * **Autoría:** Bianca Rossi — Universidad Austral
 * **Contacto:** brossi@mail.austral.edu.ar
+```
