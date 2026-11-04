@@ -357,8 +357,6 @@ ORDER BY d.year, d.month, total_ingresos DESC;
 ```
 ---
 
----
-
 ## 📈 Tablero Ejecutivo y Especificaciones de Visualización (Power BI)
 
 El reporte interactivo se alimenta exclusivamente de las **4 tablas de Data Marts pre-calculadas en DuckDB** (`mart_ventas_mensual`, `mart_producto_mensual`, `mart_nps_mensual`, `mart_usuarios_mensual`), logrando un modelo analítico optimizado y de alta performance sin necesidad de fórmulas DAX complejas[cite: 2, 3, 4].
