@@ -1,0 +1,169 @@
+mes,canal,provincia,ventas,pedidos,ticket_promedio
+2025-09-01,Tiendas Físicas,Córdoba,1617939.00,47,34424.23
+2025-09-01,Tiendas Físicas,Mendoza,1160874.00,36,32246.50
+2024-09-01,Tienda Online,Buenos Aires,3575002.50,102,35049.04
+2024-10-01,Tienda Online,Buenos Aires,3818778.00,116,32920.50
+2024-09-01,Tiendas Físicas,Córdoba,1576242.00,50,31524.84
+2025-06-01,Tienda Online,Buenos Aires,5684719.50,133,42742.25
+2025-08-01,Tienda Online,Santa Fe,2608371.00,77,33874.95
+2024-10-01,Tiendas Físicas,Santa Fe,1683108.00,57,29528.21
+2024-12-01,Tienda Online,Santa Fe,3774571.50,104,36293.96
+2024-06-01,Tiendas Físicas,Buenos Aires,2781891.00,75,37091.88
+2024-09-01,Tiendas Físicas,Mendoza,1265721.00,45,28127.13
+2024-08-01,Tiendas Físicas,Córdoba,1575516.00,48,32823.25
+2025-01-01,Tiendas Físicas,Buenos Aires,2931810.00,83,35323.01
+2024-08-01,Tiendas Físicas,Mendoza,1869420.00,49,38151.43
+2025-02-01,Tiendas Físicas,Santa Fe,2045964.00,59,34677.36
+2024-03-01,Tiendas Físicas,Buenos Aires,2381976.00,67,35551.88
+2024-11-01,Tiendas Físicas,Buenos Aires,1984743.00,71,27954.13
+2025-06-01,Tienda Online,Santa Fe,2829475.50,74,38236.16
+2024-06-01,Tienda Online,Mendoza,1311645.00,46,28514.02
+2024-12-01,Tienda Online,Buenos Aires,8184262.50,212,38605.01
+2024-09-01,Tienda Online,Santa Fe,2245836.00,63,35648.19
+2024-06-01,Tienda Online,Córdoba,2228278.50,64,34816.85
+2024-10-01,Tiendas Físicas,Buenos Aires,2319540.00,65,35685.23
+2025-08-01,Tienda Online,Buenos Aires,4677274.50,136,34391.72
+2024-06-01,Tiendas Físicas,Santa Fe,1829301.00,56,32666.09
+2024-03-01,Tiendas Físicas,Santa Fe,2078586.00,61,34075.18
+2024-11-01,Tiendas Físicas,Santa Fe,1729428.00,55,31444.15
+2024-10-01,Tienda Online,Santa Fe,2492488.50,78,31954.98
+2025-01-01,Tiendas Físicas,Santa Fe,2268942.00,68,33366.79
+2024-12-01,Tiendas Físicas,Córdoba,2909637.00,94,30953.59
+2025-05-01,Tiendas Físicas,Córdoba,1669944.00,51,32744.00
+2025-03-01,Tiendas Físicas,Mendoza,1710804.00,50,34216.08
+2024-12-01,Tiendas Físicas,Mendoza,2176881.00,61,35686.57
+2025-03-01,Tiendas Físicas,Córdoba,2178822.00,63,34584.48
+2025-04-01,Tiendas Físicas,Mendoza,899136.00,28,32112.00
+2025-08-01,Tiendas Físicas,Córdoba,1622610.00,53,30615.28
+2025-08-01,Tiendas Físicas,Mendoza,1703166.00,46,37025.35
+2025-05-01,Tiendas Físicas,Mendoza,1180809.00,31,38090.61
+2025-04-01,Tiendas Físicas,Córdoba,1495245.00,50,29904.90
+2025-02-01,Tiendas Físicas,Buenos Aires,3035376.00,87,34889.38
+2025-09-01,Tienda Online,Mendoza,1763776.50,47,37527.16
+2024-02-01,Tienda Online,Santa Fe,2103577.50,61,34484.88
+2025-04-01,Tienda Online,Buenos Aires,4419211.50,129,34257.45
+2024-03-01,Tienda Online,Buenos Aires,3823638.00,111,34447.19
+2025-07-01,Tienda Online,Santa Fe,2430240.00,62,39197.42
+2024-11-01,Tienda Online,Mendoza,1762611.00,53,33256.81
+2024-01-01,Tienda Online,Mendoza,1132185.00,29,39040.86
+2024-08-01,Tienda Online,Buenos Aires,4007770.50,116,34549.75
+2024-01-01,Tienda Online,Córdoba,2528650.50,64,39510.16
+2024-05-01,Tienda Online,Santa Fe,2316579.00,66,35099.68
+2025-09-01,Tienda Online,Córdoba,3115359.00,85,36651.28
+2024-04-01,Tienda Online,Buenos Aires,3364210.50,101,33309.01
+2025-01-01,Tienda Online,Mendoza,2020614.00,50,40412.28
+2024-11-01,Tienda Online,Córdoba,2779488.00,88,31585.09
+2024-02-01,Tiendas Físicas,Mendoza,1422189.00,45,31604.20
+2025-01-01,Tienda Online,Córdoba,2332155.00,71,32847.25
+2024-02-01,Tiendas Físicas,Córdoba,1832835.00,51,35937.94
+2024-05-01,Tiendas Físicas,Santa Fe,1545339.00,43,35938.12
+2024-02-01,Tienda Online,Córdoba,2625576.00,81,32414.52
+2025-02-01,Tienda Online,Buenos Aires,5229459.00,153,34179.47
+2025-01-01,Tienda Online,Santa Fe,2570635.50,71,36206.13
+2025-05-01,Tienda Online,Buenos Aires,5382310.50,179,30068.77
+2024-04-01,Tiendas Físicas,Buenos Aires,1601526.00,49,32684.20
+2024-05-01,Tienda Online,Córdoba,1900341.00,59,32209.17
+2024-07-01,Tienda Online,Buenos Aires,3249985.50,92,35325.93
+2025-09-01,Tienda Online,Santa Fe,2256774.00,64,35262.09
+2025-03-01,Tienda Online,Buenos Aires,4755682.50,140,33969.16
+2024-05-01,Tienda Online,Mendoza,1325346.00,39,33983.23
+2024-11-01,Tienda Online,Santa Fe,2309302.50,69,33468.15
+2024-01-01,Tiendas Físicas,Buenos Aires,2457954.00,73,33670.60
+2025-07-01,Tienda Online,Mendoza,1358214.00,40,33955.35
+2024-01-01,Tienda Online,Santa Fe,1966566.00,65,30254.86
+2024-02-01,Tienda Online,Mendoza,1313035.50,38,34553.57
+2025-07-01,Tienda Online,Córdoba,1551940.50,50,31038.81
+2024-02-01,Tiendas Físicas,Santa Fe,2070877.50,56,36979.96
+2024-05-01,Tiendas Físicas,Mendoza,1229814.00,37,33238.22
+2025-06-01,Tiendas Físicas,Buenos Aires,2765193.00,64,43206.14
+2024-07-01,Tiendas Físicas,Buenos Aires,1976505.00,56,35294.73
+2025-07-01,Tiendas Físicas,Buenos Aires,1244112.00,40,31102.80
+2024-05-01,Tiendas Físicas,Córdoba,2053854.00,54,38034.33
+2024-07-01,Tienda Online,Mendoza,1159182.00,24,48299.25
+2024-02-01,Tienda Online,Buenos Aires,3966750.00,104,38141.83
+2025-03-01,Tienda Online,Córdoba,2456653.50,65,37794.67
+2024-05-01,Tienda Online,Buenos Aires,3958954.50,121,32718.63
+2025-02-01,Tienda Online,Córdoba,2837547.00,75,37833.96
+2025-02-01,Tienda Online,Mendoza,1786615.50,49,36461.54
+2025-07-01,Tienda Online,Buenos Aires,3969937.50,121,32809.40
+2025-05-01,Tienda Online,Córdoba,2906064.00,83,35012.82
+2024-04-01,Tienda Online,Santa Fe,2213737.50,61,36290.78
+2024-03-01,Tienda Online,Santa Fe,2433000.00,60,40550.00
+2025-03-01,Tienda Online,Mendoza,2133040.50,64,33328.76
+2024-04-01,Tiendas Físicas,Córdoba,1505457.00,41,36718.46
+2024-05-01,Tiendas Físicas,Buenos Aires,2002278.00,55,36405.05
+2025-06-01,Tiendas Físicas,Córdoba,2062032.00,67,30776.60
+2024-07-01,Tienda Online,Córdoba,1094118.00,35,31260.51
+2025-04-01,Tienda Online,Santa Fe,2901397.50,78,37197.40
+2024-08-01,Tienda Online,Santa Fe,1457208.00,52,28023.23
+2024-01-01,Tiendas Físicas,Mendoza,1274433.00,40,31860.83
+2024-07-01,Tiendas Físicas,Mendoza,1280982.00,40,32024.55
+2025-07-01,Tiendas Físicas,Córdoba,1551969.00,51,30430.76
+2024-01-01,Tiendas Físicas,Córdoba,1763091.00,52,33905.60
+2025-05-01,Tienda Online,Mendoza,1555807.50,50,31116.15
+2024-07-01,Tiendas Físicas,Córdoba,1771803.00,48,36912.56
+2025-07-01,Tiendas Físicas,Mendoza,1266114.00,40,31652.85
+2025-06-01,Tiendas Físicas,Mendoza,1395009.00,43,32442.07
+2024-04-01,Tiendas Físicas,Mendoza,1402995.00,42,33404.64
+2024-03-01,Tienda Online,Mendoza,1131822.00,30,37727.40
+2024-11-01,Tienda Online,Buenos Aires,5075121.00,157,32325.61
+2024-01-01,Tienda Online,Buenos Aires,3174915.00,93,34138.87
+2024-07-01,Tienda Online,Santa Fe,1887534.00,51,37010.47
+2025-03-01,Tienda Online,Santa Fe,2386050.00,68,35088.97
+2025-01-01,Tienda Online,Buenos Aires,4507663.50,142,31744.11
+2024-04-01,Tienda Online,Mendoza,1117861.50,32,34933.17
+2025-09-01,Tienda Online,Buenos Aires,4208127.00,128,32875.99
+2024-04-01,Tienda Online,Córdoba,1734786.00,50,34695.72
+2024-03-01,Tienda Online,Córdoba,1969246.50,52,37870.13
+2024-02-01,Tiendas Físicas,Buenos Aires,3043039.50,77,39519.99
+2024-08-01,Tienda Online,Córdoba,1854100.50,55,33710.92
+2025-02-01,Tienda Online,Santa Fe,2655433.50,66,40233.84
+2025-06-01,Tiendas Físicas,Santa Fe,1877265.00,59,31818.05
+2025-05-01,Tienda Online,Santa Fe,2908471.50,81,35907.06
+2025-04-01,Tienda Online,Córdoba,2479752.00,68,36466.94
+2024-04-01,Tiendas Físicas,Santa Fe,2303235.00,62,37148.95
+2024-01-01,Tiendas Físicas,Santa Fe,1667670.00,44,37901.59
+2024-07-01,Tiendas Físicas,Santa Fe,1191195.00,41,29053.54
+2025-04-01,Tienda Online,Mendoza,1178740.50,35,33678.30
+2024-08-01,Tienda Online,Mendoza,767656.50,22,34893.48
+2025-07-01,Tiendas Físicas,Santa Fe,1324272.00,39,33955.69
+2025-09-01,Tiendas Físicas,Santa Fe,1004517.00,34,29544.62
+2024-06-01,Tienda Online,Buenos Aires,4974529.50,125,39796.24
+2025-08-01,Tienda Online,Córdoba,2799261.00,80,34990.76
+2024-12-01,Tiendas Físicas,Buenos Aires,3610005.00,104,34711.59
+2024-12-01,Tienda Online,Córdoba,3347172.00,89,37608.67
+2024-12-01,Tienda Online,Mendoza,2438898.00,68,35866.15
+2025-08-01,Tienda Online,Mendoza,2056566.00,47,43756.72
+2024-10-01,Tiendas Físicas,Córdoba,1748485.50,53,32990.29
+2025-03-01,Tiendas Físicas,Buenos Aires,2791551.00,80,34894.39
+2025-02-01,Tiendas Físicas,Córdoba,2376160.50,69,34437.11
+2025-08-01,Tiendas Físicas,Buenos Aires,1981587.00,58,34165.29
+2025-05-01,Tiendas Físicas,Buenos Aires,1852470.00,59,31397.80
+2025-02-01,Tiendas Físicas,Mendoza,1687557.00,50,33751.14
+2024-08-01,Tiendas Físicas,Santa Fe,1520436.00,48,31675.75
+2025-04-01,Tiendas Físicas,Buenos Aires,2487609.00,67,37128.49
+2024-10-01,Tiendas Físicas,Mendoza,1678845.00,46,36496.63
+2024-09-01,Tiendas Físicas,Santa Fe,1499553.00,43,34873.33
+2025-09-01,Tiendas Físicas,Buenos Aires,1519266.00,46,33027.52
+2024-09-01,Tienda Online,Córdoba,1915543.50,58,33026.61
+2024-10-01,Tienda Online,Mendoza,1999756.50,50,39995.13
+2025-06-01,Tienda Online,Córdoba,2334723.00,63,37059.10
+2024-06-01,Tienda Online,Santa Fe,2485570.50,70,35508.15
+2024-10-01,Tienda Online,Córdoba,2533000.50,74,34229.74
+2024-03-01,Tiendas Físicas,Mendoza,1085295.00,35,31008.43
+2025-06-01,Tienda Online,Mendoza,2262070.50,59,38340.18
+2024-08-01,Tiendas Físicas,Buenos Aires,1952436.00,54,36156.22
+2024-12-01,Tiendas Físicas,Santa Fe,2007075.00,53,37869.34
+2024-06-01,Tiendas Físicas,Córdoba,2597676.00,76,34179.95
+2024-03-01,Tiendas Físicas,Córdoba,2204910.00,66,33407.73
+2024-09-01,Tienda Online,Mendoza,871807.50,25,34872.30
+2024-11-01,Tiendas Físicas,Mendoza,1356864.00,35,38767.54
+2024-06-01,Tiendas Físicas,Mendoza,1535656.50,43,35712.94
+2025-04-01,Tiendas Físicas,Santa Fe,1199811.00,40,29995.28
+2024-09-01,Tiendas Físicas,Buenos Aires,1970082.00,57,34562.84
+2024-11-01,Tiendas Físicas,Córdoba,1751341.50,44,39803.22
+2025-01-01,Tiendas Físicas,Córdoba,2345850.00,64,36653.91
+2025-08-01,Tiendas Físicas,Santa Fe,1778070.00,54,32927.22
+2025-05-01,Tiendas Físicas,Santa Fe,2117379.00,54,39210.72
+2025-03-01,Tiendas Físicas,Santa Fe,1572564.00,51,30834.59
+2025-01-01,Tiendas Físicas,Mendoza,1598985.00,42,38071.07
