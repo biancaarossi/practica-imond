@@ -19,6 +19,24 @@ README.md          Documentación técnica del proyecto y diccionario de datos
 ```
 ---
 
+## 🚀 Instrucciones de Ejecución
+
+Para levantar el pipeline y generar la base de datos analítica local (`warehouse.duckdb`) junto con los data marts en CSV, sigue estos pasos:
+
+1. **Clona el repositorio** y abre la terminal en la carpeta raíz del proyecto.
+2. **Activa el entorno virtual** de Python:
+   - En Windows (PowerShell): `.\venv\Scripts\Activate`
+   - En Mac/Linux: `source venv/bin/activate`
+3. **Verifica las dependencias** requeridas ejecutando:
+
+   `pip install -r requirements.txt`
+4. **Ejecuta el script de automatización del pipeline ETL/ELT**
+
+  `python run_sql.py`
+5. **Conecta Power BI a los archivos procesados en la carpeta `dw/` o directamente a la base `warehouse.duckdb` para visualizar el tablero ejecutivo.**
+
+---
+
 ## 💡 Supuestos de Negocio
 
 * **Ventas y Facturación:** Solo se consideran válidas para el cálculo de ingresos netos, unidades vendidas y ticket promedio aquellas órdenes cuyo estado sea `PAID` (Pagada) o `FULFILLED` (Entregada/Completada). Se excluyen órdenes en estado `CREATED`, `CANCELLED` o `REFUNDED`.
